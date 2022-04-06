@@ -1,7 +1,9 @@
 
 # Predict_Emissions_From_Engine_Size
 
-- Jonathan Oakey
+Author: Jonathan Oakey
+
+
 This will allow you to use machine learning to predict emissions from engine size.
 
 The model is trained using this data.
