@@ -95,7 +95,7 @@ class Predict_Emissions_From_Engine_Size:
     print('enter an engine size (ex: 3.5)')
     my_engine_size = input()
     my_engine_size = float(my_engine_size)
-    estimatd_emission = get_regression_predictions(my_engine_size,regr.intercept_[0],regr.coef_[0][0])
+    estimatd_emission = self.get_regression_predictions(my_engine_size,regr.intercept_[0],regr.coef_[0][0])
     print ("Estimated Emission :",estimatd_emission)
 
 
