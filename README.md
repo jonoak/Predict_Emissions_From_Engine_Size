@@ -8,7 +8,7 @@ This will allow you to use machine learning to predict emissions from engine siz
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/rv3xMpw/part2.png" alt="part2" border="0"></a>
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/BcTXrFP/part1.png" alt="part1" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/LkP5FDV/part3.png" alt="part3" border="0"></a>
 
 
 Run Code Here:
