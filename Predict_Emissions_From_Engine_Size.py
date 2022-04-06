@@ -89,7 +89,7 @@ class Predict_Emissions_From_Engine_Size:
     predicted_values = input_features*slope + intercept
     return predicted_values
 
-  def making_predictions(regr):
+  def making_predictions(self,regr):
     # Predicting emission for future car:
     # my_engine_size = 3.5
     print('enter an engine size (ex: 3.5)')
