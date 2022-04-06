@@ -2,13 +2,11 @@
 
 
 class Predict_Emissions_From_Engine_Size:
-  # Import required libraries:
-  import pandas as pd
-  import numpy as np
-  import matplotlib.pyplot as plt
-  from sklearn import linear_model
+
 
   def __init__(self):
+    # Import required libraries:
+    import pandas as pd
     # Read the CSV file :
     data = pd.read_csv("https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv")
     train_testing_data = self.generate_training_testing_data(data)
@@ -38,6 +36,9 @@ class Predict_Emissions_From_Engine_Size:
         print('unknown response...try again')
 
   def explore_data(self,data):
+    
+    import matplotlib.pyplot as plt
+    
     # Let's select some features to explore more :
     data = data[["ENGINESIZE","CO2EMISSIONS"]]
     # ENGINESIZE vs CO2EMISSIONS:
@@ -59,6 +60,9 @@ class Predict_Emissions_From_Engine_Size:
 
 
   def create_and_plot_model(self,train):
+    import numpy as np
+    import matplotlib.pyplot as plt
+    from sklearn import linear_model
     model_data = {}
     # Modeling:
     # Using sklearn package to model data :
@@ -97,6 +101,7 @@ class Predict_Emissions_From_Engine_Size:
 
   def checking_accuracy(self,regr,test):
     # Checking various accuracy:
+    import numpy as np
     from sklearn.metrics import r2_score
     test_x = np.array(test[['ENGINESIZE']])
     test_y = np.array(test[['CO2EMISSIONS']])
