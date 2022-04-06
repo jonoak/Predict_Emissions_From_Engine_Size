@@ -27,11 +27,11 @@ class Predict_Emissions_From_Engine_Size:
       if 'Exit' in the_response:
         break
       elif 'Check Accuracy' in the_response:
-        checking_accuracy(regr,test)
+        self.checking_accuracy(regr,test)
       elif 'Make Predictions' in the_response:
-        making_predictions(regr)
+        self.making_predictions(regr)
       elif 'Explore Data' in the_response:
-        explore_data(data)
+        self.explore_data(data)
       else:
         print('unknown response...try again')
 
