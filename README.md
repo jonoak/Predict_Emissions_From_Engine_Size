@@ -2,6 +2,9 @@
 # Predict_Emissions_From_Engine_Size
 This will allow you to use machine learning to predict emissions from engine size.
 
+The model is trained using this data.
+
+https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv
 
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/BcTXrFP/part1.png" alt="part1" border="0"></a>
